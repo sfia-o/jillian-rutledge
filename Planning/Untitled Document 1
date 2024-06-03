@@ -1,0 +1,25 @@
+An admin can log in and out
+An admin can add, delete and modify events and courses
+
+A visitor can sign up for a newsletter
+A visitor can contact to book by submitting a form
+
+Database tables:
+
+	FREE DIVING COURSES
+		.ID
+		.NAME (TEXT)
+		.DATE (DATE)
+		.DESCRIPTION (TEXT)
+		.LOCATION (TEXT)
+		.PHOTOS
+		
+	RETREATS
+		.ID
+		.NAME (TEXT)
+		.DATE (DATE)
+		.DESCRIPTION (TEXT)
+		.LOCATION (TEXT)
+		.PHOTOS
+		
+
