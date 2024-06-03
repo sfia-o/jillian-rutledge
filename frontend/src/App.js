@@ -1,30 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-
-  const [userData, setUserData] = useState({users: []});
-
-  useEffect(() => {
-    fetch("/api").then(
-      response => response.json()
-    ).then(
-      data => {
-        setUserData(data)
-      }
-    )
-  }, []);
-
-  console.log(userData);
-
   return (
     <div>
-      {
-        userData.users.map((user, i) => (
-          <p key={i}>{user}</p>
-        ))
-      }
+      <Router>
+        <Switch>
+          <Route></Route>
+        </Switch>
+      </Router>
     </div>
-  )
+  );
 }
 
 export default App;
