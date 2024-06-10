@@ -5,7 +5,7 @@ import { Link as LinkScroll } from 'react-scroll';
 export const Nav = styled.nav`
   background: transparent;
   height: 80px;
-  margin-top: 0;  /* Changed to 0 for debugging */
+  margin-top: -10;  /* Changed to 0 for debugging */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -20,12 +20,21 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
   /* Add some basic styles for debugging */
-  border: 1px solid red;
-  width: 100%;
+    width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 0 24px;
   height: 80px;
+`;
+
+export const NavItem = styled.h1`
+    color: black;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  cursor: pointer;
 `;
 
 /* Define any other styled components used */

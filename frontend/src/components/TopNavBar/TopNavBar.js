@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  Nav,
-  NavbarContainer,
-} from "./TopNavBarElements";
+import { Nav, NavbarContainer, NavItem } from "./TopNavBarElements";
 
 const TopNavBar = () => {
   console.log("TopNavBar rendered"); // Debugging statement
@@ -12,7 +9,10 @@ const TopNavBar = () => {
         <NavbarContainer>
           <NavItem>about</NavItem>
           <NavItem>coaching</NavItem>
-          <NavLogo></NavLogo>
+          {/* <NavLogo>
+            <img src={slogo} alt="jillian rutledge styled logo" />
+          </NavLogo> */}
+          {/* Temporary placeholder logo*/}<NavItem>JILLIAN RUTLEDGE</NavItem>
           <NavItem>diving</NavItem>
           <NavItem>contact</NavItem>
         </NavbarContainer>
@@ -22,4 +22,3 @@ const TopNavBar = () => {
 };
 
 export default TopNavBar;
-
