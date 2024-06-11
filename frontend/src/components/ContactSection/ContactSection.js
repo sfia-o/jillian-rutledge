@@ -1,10 +1,16 @@
 import React from "react";
-import { ContactContainer, ConnectContainer, Title, Text, SubscribeContainer, InputForm } from './ContactElements'
+import {
+  ContactContainer,
+  ConnectContainer,
+  Title,
+  Text,
+  SubscribeContainer,
+  InputForm,
+} from "./ContactElements";
 
 function ContactSection() {
   return (
     <ContactContainer>
-
       <ConnectContainer>
         <Title>CONNECT</Title>
         <p>750 245 2589</p>
@@ -15,7 +21,6 @@ function ContactSection() {
         <Title>SUBSCRIBE</Title>
         <InputForm></InputForm>
       </SubscribeContainer>
-
     </ContactContainer>
   );
 }

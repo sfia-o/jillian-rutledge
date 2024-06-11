@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-    max-width: 100%;
-  background-color: #B4C9C9;
+  max-width: 100%;
+  background-color: #b4c9c9;
   height: 800px;
   position: relative;
   padding: 24px;
@@ -13,29 +13,29 @@ export const ContactContainer = styled.div`
 `;
 
 export const ConnectContainer = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 
-p{
-text-align: center;
-font-size: 21px;}
+  p {
+    text-align: center;
+    font-size: 21px;
+  }
 `;
 
 export const Title = styled.h1`
-text-align: center;
-font-family: "Grandiflora One", cursive;
+  text-align: center;
+  font-family: "Grandiflora One", cursive;
 `;
 
-export const Text = styled.p`
-`;
+export const Text = styled.p``;
 
 export const SubscribeContainer = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-item: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-item: center;
 `;
 
 export const InputForm = styled.div`
