@@ -79,4 +79,3 @@ export const HeroP = styled.p`
     font-size: 32px;
   }
 `;
-

@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FooterContainer = styled.div`
   max-width: 100%;
-  background-color: #B4C9C9;
+  background-color: #b4c9c9;
   height: 100px;
   position: relative;
   padding: 24px;
@@ -12,10 +12,9 @@ export const FooterContainer = styled.div`
   justify-content: center;
 `;
 
-export const SocialMediaLinks = styled.div`
-`;
+export const SocialMediaLinks = styled.div``;
 
 export const RightsStatement = styled.p`
-text-align: end;
-color: white;
+  text-align: end;
+  color: white;
 `;
