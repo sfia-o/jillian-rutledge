@@ -4,7 +4,7 @@ export const WelcomeContainer = styled.div`
   z-index: 0;
   max-width: 1200px;
   height: 600px;
-  position: absolute;
+  position: relative;
   padding: 24px;
   display: flex;
   flex-direction: row;
