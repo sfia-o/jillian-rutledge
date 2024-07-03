@@ -1,5 +1,5 @@
 import React from 'react'
-import { WelcomeContainer, WelcomeH1, Container, WelcomeH2, WelcomeP } from "./WelcomeElements";
+import { WelcomeContainer, WelcomeH1, Container, SubContainer, WelcomeH2, WelcomeP } from "./WelcomeElements";
 
 
 function WelcomeSection() {
@@ -8,9 +8,11 @@ function WelcomeSection() {
       <WelcomeH1>LET'S DIVE IN</WelcomeH1>
       <Container>
       <WelcomeH2>Does this sound like you?</WelcomeH2>
+      <SubContainer>
       <WelcomeP>Does fear block you from pursuing your goals?</WelcomeP>
       <WelcomeP>Do you find yourself stuck in a cycle of procrastination?</WelcomeP>
-      <WelcomeP>Do you feel stagnant? Like life is not moving forward</WelcomeP>
+      <WelcomeP>Do you feel stagnant? Like life is not moving forward?</WelcomeP>
+      </SubContainer>
       </Container>
       
     </WelcomeContainer>

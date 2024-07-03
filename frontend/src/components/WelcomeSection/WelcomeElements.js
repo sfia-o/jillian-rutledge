@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const WelcomeContainer = styled.div`
   z-index: 0;
-  max-width: 1200px;
+  max-width: 2000px;
   height: 600px;
   position: relative;
   padding: 24px;
@@ -14,12 +14,12 @@ export const WelcomeContainer = styled.div`
 
 export const WelcomeH1 = styled.h1`
   color: white;
+  max-width: 450px;
   font-family: "Grandiflora One", cursive;
-  font-size: 50px;
-  text-align: center;
-  font-weight: black;
+  font-size: 115px;
+  text-align: start;
   color: black;
-  margin: 0;
+  margin: 0 3rem;
   padding: 0;
 
   @media screen and (max-width: 768px) {
@@ -39,17 +39,13 @@ export const Container = styled.div`
 `;
 
 export const WelcomeH2 = styled.h2`
-    color: black;
-  max-width: 700px;
-  font-size: 30px;
-  text-align: start;
-  margin: 0 50;
-  font-weight: 100;
-  font-style: italic;
   color: black;
-  margin: 0 34;
-  padding: 0;
-
+  max-width: 1000px;
+  font-size: 32px;
+  text-align: start;
+  font-style: bold;
+  margin: 3 0;
+  
   @media screen and (max-width: 768px) {
     font-size: 40px;
   }
@@ -59,16 +55,18 @@ export const WelcomeH2 = styled.h2`
   }
 `;
 
+export const SubContainer = styled.div`
+  margin: 2 0;
+`
+
 export const WelcomeP = styled.p`
    color: black;
   max-width: 700px;
   font-size: 30px;
+  margin: 0;
   text-align: start;
-  margin: 0 50;
   font-weight: 100;
-  font-style: italic;
   color: black;
-  margin: 0 34;
   padding: 0;
 
   @media screen and (max-width: 768px) {
