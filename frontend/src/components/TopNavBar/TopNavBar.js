@@ -1,5 +1,7 @@
 import React from "react";
 import { Nav, NavbarContainer, NavItem } from "./TopNavBarElements";
+import { Link } from "react-router-dom"
+
 
 const TopNavBar = () => {
   console.log("TopNavBar rendered"); // Debugging statement
@@ -8,7 +10,7 @@ const TopNavBar = () => {
       <Nav>
         <NavbarContainer>
           <NavItem>about</NavItem>
-          <NavItem>coaching</NavItem>
+          <NavItem><Link to='/coaching'>coaching</Link></NavItem>
           {/* <NavLogo>
             <img src={slogo} alt="jillian rutledge styled logo" />
           </NavLogo> */}
