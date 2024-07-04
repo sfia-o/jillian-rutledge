@@ -15,7 +15,7 @@ const TopNavBar = () => {
             <img src={slogo} alt="jillian rutledge styled logo" />
           </NavLogo> */}
           {/* Temporary placeholder logo*/}<NavItem>JILLIAN RUTLEDGE</NavItem>
-          <NavItem>diving</NavItem>
+          <NavItem><Link to='/diving'>diving</Link></NavItem>
           <NavItem>contact</NavItem>
         </NavbarContainer>
       </Nav>
