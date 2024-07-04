@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom"
 
-function Home() {
+function Coaching() {
   return (
     <div>
-
+      <h1>COACHING</h1>
     </div>
   );
 }
 
-export default Home;
+export default Coaching;
