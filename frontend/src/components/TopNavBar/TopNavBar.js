@@ -10,12 +10,12 @@ const TopNavBar = () => {
       <Nav>
         <NavbarContainer>
           <NavItem>about</NavItem>
-          <NavItem><Link to='/coaching'>coaching</Link></NavItem>
+          <NavItem><Link to='/coaching' style={{ textDecoration: 'none', color: 'inherit' }}>coaching</Link></NavItem>
           {/* <NavLogo>
             <img src={slogo} alt="jillian rutledge styled logo" />
           </NavLogo> */}
           {/* Temporary placeholder logo*/}<NavItem>JILLIAN RUTLEDGE</NavItem>
-          <NavItem><Link to='/diving'>diving</Link></NavItem>
+          <NavItem><Link to='/diving' style={{ textDecoration: 'none', color: 'inherit' }}>diving</Link></NavItem>
           <NavItem>contact</NavItem>
         </NavbarContainer>
       </Nav>
