@@ -14,7 +14,7 @@ const TopNavBar = () => {
           {/* <NavLogo>
             <img src={slogo} alt="jillian rutledge styled logo" />
           </NavLogo> */}
-          {/* Temporary placeholder logo*/}<NavItem>JILLIAN RUTLEDGE</NavItem>
+          {/* Temporary placeholder logo*/}<NavItem><Link to='/' style={{ textDecoration: 'none', color: 'inherit' }}>JILLIAN RUTLEDGE</Link></NavItem>
           <NavItem><Link to='/diving' style={{ textDecoration: 'none', color: 'inherit' }}>diving</Link></NavItem>
           <NavItem>contact</NavItem>
         </NavbarContainer>
